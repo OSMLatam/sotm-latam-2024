@@ -1,0 +1,32 @@
+<nav class="navbar navbar-custom navbar-fixed-top">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sotm-navbar-collapse-1" aria-expanded="false" aria-controls="sotm-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-bars"></i>
+      </button>
+
+      {% assign indexPage=site.pages | where:"ref", "index" | where:"lang", page.lang %}
+      <a class="navbar-brand" href="{{ indexPage.url }}">State of the Map Latam 2019</a>
+    </div>
+
+    <div id="sotm-navbar-collapse-1" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right nav-lang">
+        {% assign altPages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for altPage in altPages %}
+          <li>
+            <a href="{{ altPage.url | prepend: site.baseurl }}">{{ altPage.lang }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        {% for menu in site.t[page.lang].menu %}
+          <li>
+            <a href="{{ menu[1].url | prepend: site.baseurl }}">{{ menu[1].label }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

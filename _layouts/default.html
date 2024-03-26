@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  {% if site.maintenance_mode %}
+  <div class="alert alert-warning" role="alert">
+    <strong>¡Atención!</strong> El sitio se encuentra en modo de mantenimiento.
+  </div>
+  {% else %}
+  {{ content }}
+  {% endif %}
+
+
+  {% include footer.html %}
+
+</body>
+
+</html>

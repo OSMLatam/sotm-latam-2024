@@ -1,0 +1,37 @@
+<div id="program-board" class="container-fluid">
+  <div class="row program-row" ng-repeat="activity in day.activities">
+    <div class="col-xs-3 col-sm-2 col-md-1 hour">
+      <p>{[{ activity.hour }]}</p>
+    </div>
+    <div class="col-xs-9 col-sm-10 col-md-11">
+      <div class="row">
+        <div class="col-xs-12 activity" ng-if="activity.type == 'interval'">
+          <p>{[{ activity.message.{{page.lang}} }]}</p>
+        </div>
+        <div class="col-xs-12 activity" ng-if="activity.type != 'interval'" ng-init="talk = get_talk(activity.talk);">
+          <p id="label" ng-init="location = get_location(activity.location);">
+            <span class="glyphicon glyphicon-map-marker"></span>
+            {[{ location.name.{{page.lang}} }]} {[{ locations[activity.location-1].name.{{page.lang}} }]} &nbsp;
+            <span class="glyphicon glyphicon-time"></span>
+            {[{ activity.duration }]}
+          </p>
+          <p class="talk-title">
+            {[{ types[activity.type-1].title.{{page.lang}} }]} - 
+            {[{ talks[activity.talk-1].title }]}
+          </p>
+          <div id="speakers">
+            <p class="speaker" ng-repeat="speaker in talk.speakers" ng-init="country = get_country(speakers[speaker-1].country);">
+              <span ng-if="$index != 0">&nbsp; - &nbsp;</span>
+              <img ng-src="/images/flags/{[{country.code}]}.png" alt="{[{country.code}]}" title="{[{country.name}]}" width="24"> {[{ speakers[speaker-1].name }]} {[{ speakers[speaker-1].organization }]} 
+              <span ng-if="activity.type == 3"> 
+            </span>
+            </p>
+          </div>
+          <p>
+            {[{ talks[activity.talk-1].abstract }]}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,55 +1,89 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: State of the Map LATAM 2019
+email: info@osmlatam.org
+description: > # this means to ignore newlines until "baseurl:"
+  Conference website for State Of The Map Latam 2019, the OpenStreetMap conference for Latin American,
+  which took place in 2019 between November 14th and 16th in the city of Encarnación, Paraguay.
+url: "https://2019.osmlatam.org/" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+email: "info@osmlatam.org"
+facebook_page: "osmlatam"
+twitter_username: "osmlatam"
+github_username:
+website: "https://2019.osmlatam.org/"
+exclude: [README.md]
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+markdown: kramdown
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Translations
+t:
+  en:
+    language_name: English
+    modal:
+      abstract: Abstract
+      close: Close
+    menu:
+      about:
+        label: About
+        url: /en/#about
+      program:
+        label: Send your presentation
+        url: https://www.papercall.io/sotm-latam-2018
+        label: Program
+        url: /en/#program
+      venue:
+        label: Venue
+        url: /en/#venue
+      register:
+        label: Register
+        url: https://www.eventbrite.com.ar/e/state-of-the-map-latam-2018-tickets-46950300613
+      wiki:
+        label: Wiki
+        url: https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2019
+  es:
+    language_name: Español
+    modal:
+      abstract: Ver resumen
+      close: Cerrar
+    menu:
+      about:
+        label: Sobre
+        url: /#about
+      program:
+        label: Envia tu presentación
+        url: https://www.papercall.io/sotm-latam-2018
+        label: Programa
+        url: /#program
+      venue:
+        label: Lugar
+        url: /#venue
+      register:
+        label: Regístrate
+        url: https://www.eventbrite.com/e/osm-latam-py-2019-registration-70204859625
+      wiki:
+        label: Wiki
+        url: https://wiki.openstreetmap.org/wiki/ES:State_of_the_Map_Latam_2019
+  pt:
+    language_name: Português
+    modal:
+      abstract: Ver resumo
+      close: Fechar
+    menu:
+      about:
+        label: Sobre
+        url: /pt/#about
+      program:
+        label: Envia sua palestra
+        url: https://www.papercall.io/sotm-latam-2018
+        label: Programa
+        url: /pt/#program
+      venue:
+        label: Local
+        url: /pt/#venue
+      register:
+       label: Inscreva-se
+       url: https://sotmlatam2018.eventbrite.com.ar
+      wiki:
+        label: Wiki
+        url: https://wiki.openstreetmap.org/wiki/Pt:State_of_the_Map_Latam_2018

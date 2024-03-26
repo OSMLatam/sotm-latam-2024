@@ -1,0 +1,244 @@
+{
+  "days": [
+    {
+      "id": 1,
+      "date": {
+        "en": "Monday - September 24",
+        "es": "Lunes - 24 de Septiembre",
+        "pt": "Segunda-feira - 24 de Setembro"
+      },
+      "activities": [
+        {
+          "hour": "9:00",
+          "type": "interval",
+          "message": {
+            "en": "Registration of participants",
+            "es": "Registro de participantes",
+            "pt": "Registro de participantes"
+          }
+        },
+        {
+          "hour": "10:00",
+          "type": "interval",
+          "message": {
+            "en": "Opening",
+            "es": "Apertura",
+            "pt": "Abertura"
+          }
+        },
+        {
+          "hour": "10:30",
+          "type": 1,
+          "talk": 1,
+          "location": 1,
+          "duration": "30min"
+        },
+        {
+          "hour": "11:00",
+          "type": "interval",
+          "message": {
+            "en": "Coffee break",
+            "es": "Café",
+            "pt": "Café"
+          }
+        },
+        {
+          "hour": "13:00",
+          "type": "interval",
+          "message": {
+            "en": "Lunch",
+            "es": "Almuerzo",
+            "pt": "Almoço"
+          }
+        },
+        {
+          "hour": "16:00",
+          "type": "interval",
+          "message": {
+            "en": "Coffee break",
+            "es": "Café",
+            "pt": "Café"
+          }
+        },
+        {
+          "hour": "night",
+          "type": "interval",
+          "message": {
+            "en": "GeoBeers",
+            "es": "Geobirras",
+            "pt": "Geobirras"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": {
+        "en": "Tuesday - September 25",
+        "es": "Martes - 25 de Septiembre",
+        "pt": "Terça-feira - 25 de Setembro"
+      },
+      "activities": [
+        {
+          "hour": "9:00",
+          "type": "interval",
+          "message": {
+            "en": "Registration of participants",
+            "es": "Registro de participantes",
+            "pt": "Registro de participantes"
+          }
+        },
+        {
+          "hour": "11:00",
+          "type": "interval",
+          "message": {
+            "en": "Coffee break",
+            "es": "Café",
+            "pt": "Café"
+          }
+        },
+        {
+          "hour": "13:00",
+          "type": "interval",
+          "message": {
+            "en": "Lunch",
+            "es": "Almuerzo",
+            "pt": "Almoço"
+          }
+        },
+        {
+          "hour": "16:00",
+          "type": "interval",
+          "message": {
+            "en": "Coffee break",
+            "es": "Café",
+            "pt": "Café"
+          }
+        },
+        {
+          "hour": "night",
+          "type": "interval",
+          "message": {
+            "en": "Closure",
+            "es": "Cierre",
+            "pt": "Fechamento"
+          }
+        },
+        {
+          "hour": "night",
+          "type": "interval",
+          "message": {
+            "en": "Farewell geoBeers",
+            "es": "Geobirras de despedida",
+            "pt": "Geobirras de despedida"
+          }
+        }
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": {
+        "en": "Room 1",
+        "es": "Sala 1",
+        "pt": "Sala 1"
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "en": "Room 2",
+        "es": "Sala 2",
+        "pt": "Sala 2"
+      }
+    }
+  ],
+  "speakers": [
+    {
+      "id": 1,
+      "name": "Thierry Jean",
+      "country": 2,
+      "organization": ""
+    }
+  ],
+  "talks": [
+    {
+      "id": 1,
+      "title": "How to sell OSM",
+      "abstract": "Thierry has focused on Selling OSM project in Brazil developing Public Relation initiatives with Governments, Utility companies, ministries, etc… Thierry will show how a business minded professional can help OSM and will give ways for other OSM enthusiasts to do the same in their countries.",
+      "speakers": [1]
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "title": {
+        "en": "Talk",
+        "es": "Charla",
+        "pt": "Palestra"
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "en": "Workshop",
+        "es": "Taller",
+        "pt": "Workshop"
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "en": "Plenary",
+        "es": "Plenaria",
+        "pt": "Plenário"
+      }
+    },
+    {
+      "id": 4,
+      "title": {
+        "en": "Mapathon",
+        "es": "Mapaton",
+        "pt": "Mapaton"
+      }
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "Argentina",
+      "code": "AR"
+    },
+    {
+      "id": 2,
+      "name": "Brasil",
+      "code": "BR"
+    },
+    {
+      "id": 3,
+      "name": "México",
+      "code": "MX"
+    },
+    {
+      "id": 4,
+      "name": "Bolivia",
+      "code": "BO"
+    },
+    {
+      "id": 5,
+      "name": "Chile",
+      "code": "CL"
+    },
+    {
+      "id": 6,
+      "name": "Perú",
+      "code": "PE"
+    },
+    {
+      "id": 7,
+      "name": "Colombia",
+      "code": "CO"
+    }
+  ]
+}
