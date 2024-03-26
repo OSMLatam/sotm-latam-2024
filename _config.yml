@@ -13,6 +13,9 @@ github_username:
 website: "https://2019.osmlatam.org/"
 exclude: [README.md]
 
+
+maintenance_mode: true
+
 # Build settings
 markdown: kramdown
 
