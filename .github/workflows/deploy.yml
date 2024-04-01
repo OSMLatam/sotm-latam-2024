@@ -1,0 +1,38 @@
+name: Deploy to Surge
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  SURGE_DOMAIN: https://sotm-latam-2024.surge.sh
+  SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: "npm"
+
+      - name: Install surge
+        run: npm install --global surge
+
+      - name: Deploy to Surge
+        run: surge _site ${{ env.SURGE_DOMAIN }}
