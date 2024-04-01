@@ -1,0 +1,11 @@
+{
+  "name": "sotm-latam-2024",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "surge": "^0.23.1"
+  }
+}
