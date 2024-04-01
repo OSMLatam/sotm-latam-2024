@@ -1,9 +1,9 @@
-name: Deploy to Surge
+name: Deploy staging to surge.sh
 
 on:
   push:
     branches:
-      - main
+      - develop
 
 env:
   SURGE_DOMAIN: https://sotm-latam-2024.surge.sh
