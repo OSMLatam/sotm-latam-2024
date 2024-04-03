@@ -4,7 +4,7 @@ Welcome to the repository containing the source code for the State of the Map LA
 
 **Current Status:** Work in Progress
 
-For a sneak peek of the website, visit the [preview site](https://osmlatam.github.io/sotm-latam-2024/).
+For a sneak peek of the website, visit the [preview site](https://sotm-latam-2024.surge.sh/).
 
 ## How to Contribute
 
