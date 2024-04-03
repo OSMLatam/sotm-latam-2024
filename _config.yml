@@ -12,6 +12,8 @@ github_username:
 website: "https://2024.osmlatam.org/"
 exclude: [README.md]
 
+program_stage: pre-call-for-proposals
+
 # Build settings
 markdown: kramdown
 
