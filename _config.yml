@@ -15,6 +15,11 @@ exclude: [README.md]
 # Build settings
 markdown: kramdown
 
+# Venue
+map_config:
+  coordinates: [-1.43792, -48.46148] # Latitude, Longitude
+  zoom_level: 18
+
 # Translations
 t:
   en:
@@ -40,6 +45,10 @@ t:
       wiki:
         label: Wiki
         url: https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2024
+    venue_section:
+      title: "Venue"
+      place_name: "Instituto Federal do Pará (IFPA)"
+      description: "Vivamus aliquet dignissim sapien, semper venenatis massa sagittis dictum. Mauris in magna rutrum, tristique est quis, venenatis nisl. Sed quis nibh nulla. Praesent eu volutpat urna. Maecenas venenatis, augue sed aliquam luctus, nibh lectus pellentesque magna, at egestas eros nisi sit amet lacus. In hac habitasse platea dictumst."
   es:
     language_name: Español
     modal:
@@ -63,6 +72,11 @@ t:
       wiki:
         label: Wiki
         url: https://wiki.openstreetmap.org/wiki/ES:State_of_the_Map_Latam_2024
+    venue_section:
+      title: "Lugar"
+      place_name: "Instituto Federal do Pará (IFPA)"
+      description: "Vivamus aliquet dignissim sapien, semper venenatis massa sagittis dictum. Mauris in magna rutrum, tristique est quis, venenatis nisl. Sed quis nibh nulla. Praesent eu volutpat urna. Maecenas venenatis, augue sed aliquam luctus, nibh lectus pellentesque magna, at egestas eros nisi sit amet lacus. In hac habitasse platea dictumst."
+
   pt:
     language_name: Português
     modal:
@@ -86,3 +100,8 @@ t:
       wiki:
         label: Wiki
         url: https://wiki.openstreetmap.org/wiki/Pt:State_of_the_Map_Latam_2024
+    venue_section:
+      title: "Local"
+      place_name: "Instituto Federal do Pará (IFPA)"
+      description: "Vivamus aliquet dignissim sapien, semper venenatis massa sagittis dictum. Mauris in magna rutrum, tristique est quis, venenatis nisl. Sed quis nibh nulla. Praesent eu volutpat urna. Maecenas venenatis, augue sed aliquam luctus, nibh lectus pellentesque magna, at egestas eros nisi sit amet lacus. In hac habitasse platea dictumst."
+
