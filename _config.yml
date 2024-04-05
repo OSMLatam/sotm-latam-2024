@@ -50,7 +50,7 @@ t:
         url: https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2024
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
-      headline: "What world do your maps reveal?"
+      headline: "The Latin American OpenStreetMap Conference"
       location: "Belém, Brazil"
       dates: "December 7 and 8"
       register_button: "Register"
@@ -85,7 +85,7 @@ t:
     # Sections
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
-      headline: "¿Qué mundo revelan tus mapas?"
+      headline: "La conferencia latinoamericana de OpenStreetMap"
       location: "Belém, Brasil"
       dates: "7 y 8 de diciembre"
       register_button: "Regístrate"
@@ -120,7 +120,7 @@ t:
         url: https://wiki.openstreetmap.org/wiki/Pt:State_of_the_Map_Latam_2024
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
-      headline: "Que mundo os seus mapas revelam?"
+      headline: "A conferência latino-americana de OpenStreetMap"
       location: "Belém, Brasil"
       dates: "7 e 8 de dezembro"
       register_button: "Registre-se"
