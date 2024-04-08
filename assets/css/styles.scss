@@ -8,6 +8,30 @@
   background: url('/assets/images/intro-background-1920.jpg') no-repeat center center;
   background-size: cover; 
   color: #ffffff; /* Add white color for text */
+
+  .intro-logo {
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    border-bottom: 1px solid #ffffff; 
+  }
+
+  .intro-headline, .intro-dates {
+    text-align: center;
+  }
+
+  .intro-headline {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+  }
+
+  .intro-dates {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0;
+  }
 }
 
 .intro::before {
@@ -17,7 +41,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.4); /* Semi-transparent black overlay */
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
   z-index: 0;
 }
 
@@ -27,12 +51,7 @@
 }
 
 .intro h1, .intro h2, .intro h4 {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for legibility */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for legibility */
 }
 
-/* Responsive typography */
-@media (max-width: 768px) {
-  .intro h1 {
-    font-size: 2rem;
-  }
-}
+
