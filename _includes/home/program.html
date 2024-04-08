@@ -1,30 +1,33 @@
-<section id="program-info">
+<section id="program-info" class="container content-section text-center">
   <div class="container">
     {% assign program_stage = site.program_stage %}
 
     {% case program_stage %}
-      {% when "pre-call-for-proposals" %}
-        <h2>Coming Soon</h2>
-        <p>Our call for proposals will open soon. Stay tuned for updates and start preparing your submissions!</p>
-      
-      {% when "call-for-proposals-open" %}
-        <h2>Call for Proposals is Open!</h2>
-        <p>We are now accepting submissions. Visit our submissions page to submit your proposal.</p>
-        <a href="/submit" class="btn btn-primary">Submit Your Proposal</a>
-      
-      {% when "call-for-proposals-closed" %}
-        <h2>Call for Proposals is Closed</h2>
-        <p>Thank you for your submissions! The review process is now underway. Stay tuned for the draft program announcement.</p>
-      
-      {% when "program-draft" %}
-        <h2>Program Draft</h2>
-        <p>Check out the draft of our program. Final adjustments are being made, so check back soon for the final schedule.</p>
-        <a href="/program/draft" class="btn btn-primary">View Draft Program</a>
-      
-      {% when "program-final" %}
-        <h2>Final Program</h2>
-        <p>Our program is finalized! Take a look at the full schedule to plan your conference experience.</p>
-        <a href="/program/final" class="btn btn-primary">View Final Program</a>
+    {% when "pre-call-for-proposals" %}
+    <h2>Coming Soon</h2>
+    <p>Our call for proposals will open soon. Stay tuned for updates and start preparing your submissions!</p>
+
+    {% when "call-for-proposals-open" %}
+    <h2>Call for Proposals is Open!</h2>
+    <p>We are now accepting submissions. Visit our submissions page to submit your proposal.</p>
+    <a href="/submit" class="btn btn-primary">Submit Your Proposal</a>
+
+    {% when "call-for-proposals-closed" %}
+    <h2>Call for Proposals is Closed</h2>
+    <p>Thank you for your submissions! The review process is now underway. Stay tuned for the draft program
+      announcement.
+    </p>
+
+    {% when "program-draft" %}
+    <h2>Program Draft</h2>
+    <p>Check out the draft of our program. Final adjustments are being made, so check back soon for the final schedule.
+    </p>
+    <a href="/program/draft" class="btn btn-primary">View Draft Program</a>
+
+    {% when "program-final" %}
+    <h2>Final Program</h2>
+    <p>Our program is finalized! Take a look at the full schedule to plan your conference experience.</p>
+    <a href="/program/final" class="btn btn-primary">View Final Program</a>
     {% endcase %}
   </div>
 </section>

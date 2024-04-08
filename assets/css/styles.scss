@@ -1,12 +1,13 @@
 ---
 ---
 
-$color-background-body: rgba(48, 48, 48, 1);
+$color-background-body: #171717;
 $color-text-default: #ffffff;
 $color-text-hover: #000000;
 $color-border-default: #ffffff;
 $color-intro-overlay-start: rgba(255, 255, 255, 0);
 $color-intro-overlay-end: rgba(48, 48, 48, 1);
+$color-overlay: rgba(0, 0, 0, 0.5); // Semi-transparent overlay for readability
 $color-text-shadow: rgba(0, 0, 0, 0.7);
 
 body {
@@ -57,20 +58,28 @@ body {
   }
 }
 
-.intro::before {
+.intro::before, .intro::after {
   content: '';
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to bottom, $color-intro-overlay-start 80%, $color-intro-overlay-end 100%);
   z-index: 0;
+}
+
+.intro::before {
+  background: linear-gradient(to bottom, $color-intro-overlay-start 80%, $color-intro-overlay-end 100%);
+}
+
+.intro::after {
+  background: $color-overlay; // Apply the semi-transparent overlay
+  z-index: 1; // Ensure it's above the gradient
 }
 
 .intro-body {
   position: relative;
-  z-index: 1;
+  z-index: 2; // Ensure content is above both overlays
 }
 
 .intro h1, .intro h2, .intro h4 {

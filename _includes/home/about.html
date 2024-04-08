@@ -1,0 +1,38 @@
+<section id="about" class="container content-section text-center">
+  {% assign language = page.lang %}
+
+  {% case language %}
+  {% when "pt" %}
+  <h2>Sobre este evento</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam sem, tempor eget faucibus non, dictum vitae
+    nibh. Etiam vitae justo ac tellus iaculis faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+    posuere cubilia curae; Ut sed posuere turpis. Maecenas sollicitudin, magna a commodo pulvinar, tellus tellus
+    tristique neque, eget aliquam erat ipsum eu nisl. Donec volutpat sed lacus quis ultricies. Praesent dignissim
+    porttitor mi, ut dignissim mi.
+  </p>
+
+  <p></p>
+
+  {% when "en" %}
+  <h2>About this event</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam sem, tempor eget faucibus non, dictum vitae
+    nibh. Etiam vitae justo ac tellus iaculis faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+    posuere cubilia curae; Ut sed posuere turpis. Maecenas sollicitudin, magna a commodo pulvinar, tellus tellus
+    tristique neque, eget aliquam erat ipsum eu nisl. Donec volutpat sed lacus quis ultricies. Praesent dignissim
+    porttitor mi, ut dignissim mi.
+  </p>
+
+  {% else %}
+  <h2>Acerca de este evento</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam sem, tempor eget faucibus non, dictum vitae
+    nibh. Etiam vitae justo ac tellus iaculis faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+    posuere cubilia curae; Ut sed posuere turpis. Maecenas sollicitudin, magna a commodo pulvinar, tellus tellus
+    tristique neque, eget aliquam erat ipsum eu nisl. Donec volutpat sed lacus quis ultricies. Praesent dignissim
+    porttitor mi, ut dignissim mi.
+  </p>
+
+  {% endcase %}
+</section>
