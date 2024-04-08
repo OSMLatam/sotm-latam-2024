@@ -1,14 +1,26 @@
 ---
 ---
 
+$color-background-body: rgba(48, 48, 48, 1);
+$color-text-default: #ffffff;
+$color-text-hover: #000000;
+$color-border-default: #ffffff;
+$color-intro-overlay-start: rgba(255, 255, 255, 0);
+$color-intro-overlay-end: rgba(48, 48, 48, 1);
+$color-text-shadow: rgba(0, 0, 0, 0.7);
+
+body {
+  background-color: $color-background-body;
+}
+
 .btn-default {
-  color: #ffffff;
-  border-color: #ffffff;
+  color: $color-text-default;
+  border-color: $color-border-default;
   
   &:hover {
-    color: #000000;
-    background-color: #ffffff;
-    border-color: #ffffff;
+    color: $color-text-hover;
+    background-color: $color-text-default;
+    border-color: $color-border-default;
   }
 }
 
@@ -18,12 +30,12 @@
   height: 100vh; 
   background: url('/assets/images/intro-background-1920.jpg') no-repeat center center;
   background-size: cover; 
-  color: #ffffff; /* Add white color for text */
+  color: $color-text-default; // Add white color for text
 
   .intro-logo {
     display: block;
-    margin: 0 auto; /* Centers the image */
-    border-bottom: 1px solid #ffffff; 
+    margin: 0 auto; // Centers the image
+    border-bottom: 1px solid $color-text-default; 
   }
 
   .intro-headline, .intro-dates {
@@ -35,7 +47,7 @@
     font-weight: 600;
     font-size: 20px;
     padding: 20px 0;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid $color-text-default;
   }
 
   .intro-dates {
@@ -52,7 +64,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+  background: linear-gradient(to bottom, $color-intro-overlay-start 80%, $color-intro-overlay-end 100%);
   z-index: 0;
 }
 
@@ -62,7 +74,5 @@
 }
 
 .intro h1, .intro h2, .intro h4 {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for legibility */
+  text-shadow: 2px 2px 4px $color-text-shadow; // Text shadow for legibility
 }
-
-
