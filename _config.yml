@@ -52,7 +52,7 @@ t:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "The Latin American OpenStreetMap Conference"
       location: "Belém, Brazil"
-      dates: "December 7 and 8"
+      dates: "December 7 and 8, 2024"
       register_button: "Register"
       submit_presentation: "Submit Your Presentation"
     venue_section:
@@ -87,7 +87,7 @@ t:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "La conferencia latinoamericana de OpenStreetMap"
       location: "Belém, Brasil"
-      dates: "7 y 8 de diciembre"
+      dates: "7 y 8 de diciembre, 2024"
       register_button: "Regístrate"
       submit_presentation: "Envía tu Ponencia"
     venue_section:
@@ -122,7 +122,7 @@ t:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "A conferência latino-americana de OpenStreetMap"
       location: "Belém, Brasil"
-      dates: "7 e 8 de dezembro"
+      dates: "7 e 8 de dezembro de 2024"
       register_button: "Registre-se"
       submit_presentation: "Envie sua Apresentação"        
     venue_section:
