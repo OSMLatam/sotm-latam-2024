@@ -1,6 +1,17 @@
 ---
 ---
 
+.btn-default {
+  color: #ffffff;
+  border-color: #ffffff;
+  
+  &:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+}
+
 .intro {
   position: relative;
   width: 100%;
