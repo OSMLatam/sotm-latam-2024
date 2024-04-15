@@ -44,13 +44,16 @@ t:
     menu:
       about:
         label: About
-        url: /en/#about      
-      venue:
-        label: Venue
-        url: /en/#venue
-      wiki:
-        label: Wiki
-        url: https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2024
+        url: /en/#about
+      program:
+        label: Program
+        url: /en/#program
+      sponsors:
+        label: Sponsors
+        url: /en/#sponsors
+      access:
+        label: How to get there
+        url: /en/#access
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "The Latin American OpenStreetMap Conference"
@@ -69,14 +72,17 @@ t:
       close: Cerrar
     menu:
       about:
-        label: Sobre
-        url: /#about
-      venue:
-        label: Lugar
-        url: /#venue
-      wiki:
-        label: Wiki
-        url: https://wiki.openstreetmap.org/wiki/ES:State_of_the_Map_Latam_2024
+        label: Acerca de
+        url: /es/#about
+      program:
+        label: Programa
+        url: /es/#program
+      sponsors:
+        label: Patrocinadores
+        url: /es/#sponsors
+      access:
+        label: Cómo llegar
+        url: /es/#access
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "La conferencia latinoamericana de OpenStreetMap"
@@ -97,12 +103,15 @@ t:
       about:
         label: Sobre
         url: /pt/#about
-      venue:
-        label: Local
-        url: /pt/#venue
-      wiki:
-        label: Wiki
-        url: https://wiki.openstreetmap.org/wiki/Pt:State_of_the_Map_Latam_2024
+      program:
+        label: Programa
+        url: /pt/#program
+      sponsors:
+        label: Patrocinadores
+        url: /pt/#sponsors
+      access:
+        label: Como Chegar
+        url: /pt/#access
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "A conferência latino-americana de OpenStreetMap"
