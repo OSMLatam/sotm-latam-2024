@@ -8,10 +8,12 @@
           <div class="intro-headline">{{ site.t[page.lang].intro_section.headline }}</div>
           <div class="intro-dates">{{ site.t[page.lang].intro_section.dates }}</div>
           <div class="about-button">
+            {{ if site.registrations.open }}
             <span class="col-xs-12 col-sm-4 btn-item">
-              <a class="btn btn-default" href="https://www.eventbrite.com/e/osm-latam-py-2024-tickets-70204859625"
-                target="_blank" role="button">{{ site.t[page.lang].intro_section.register_button }}</a>
+              <a class="btn btn-default" href="{{ site.registrations.url }}""
+                target=" _blank" role="button">{{ site.t[page.lang].intro_section.registrations_button }}</a>
             </span>
+            {{ end }}
             <span class="col-xs-12 col-sm-4 btn-item">
               <a href="#about" class="btn btn-circle page-scroll">
                 <i class="fa fa-angle-double-down animated"></i>

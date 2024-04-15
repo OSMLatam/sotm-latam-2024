@@ -12,6 +12,10 @@ github_username:
 website: "https://2024.osmlatam.org/"
 exclude: [README.md]
 
+registrations:
+  open: true
+  url: https://doity.com.br/sotm-latam-bra-2024
+
 program_stage: pre-call-for-proposals
 
 # Build settings
@@ -33,18 +37,10 @@ t:
     menu:
       about:
         label: About
-        url: /en/#about
-      # program:
-      #   label: Send your presentation
-      #   url: 
-      #   label: Program
-      #   url: /en/#program
+        url: /en/#about      
       venue:
         label: Venue
         url: /en/#venue
-      # register:
-      #   label: Register
-      #   url: 
       wiki:
         label: Wiki
         url: https://wiki.openstreetmap.org/wiki/State_Of_The_Map_Latam_2024
@@ -53,7 +49,7 @@ t:
       headline: "The Latin American OpenStreetMap Conference"
       location: "Belém, Brazil"
       dates: "December 7 and 8, 2024"
-      register_button: "Register"
+      registrations_button: "Register Now"
       submit_presentation: "Submit Your Presentation"
     venue_section:
       title: "Venue"
@@ -68,33 +64,23 @@ t:
       about:
         label: Sobre
         url: /#about
-      # program:
-      #   label: Envia tu presentación
-      #   url: 
-      #   label: Programa
-      #   url: /#program
       venue:
         label: Lugar
         url: /#venue
-      # register:
-      #   label: Regístrate
-      #   url: 
       wiki:
         label: Wiki
         url: https://wiki.openstreetmap.org/wiki/ES:State_of_the_Map_Latam_2024
-    # Sections
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "La conferencia latinoamericana de OpenStreetMap"
       location: "Belém, Brasil"
       dates: "7 y 8 de diciembre, 2024"
-      register_button: "Regístrate"
+      registrations_button: "Inscripciones"
       submit_presentation: "Envía tu Ponencia"
     venue_section:
       title: "Lugar"
       place_name: "Instituto Federal do Pará (IFPA)"
       description: "Vivamus aliquet dignissim sapien, semper venenatis massa sagittis dictum. Mauris in magna rutrum, tristique est quis, venenatis nisl. Sed quis nibh nulla. Praesent eu volutpat urna. Maecenas venenatis, augue sed aliquam luctus, nibh lectus pellentesque magna, at egestas eros nisi sit amet lacus. In hac habitasse platea dictumst."
-
   pt:
     language_name: Português
     modal:
@@ -104,17 +90,9 @@ t:
       about:
         label: Sobre
         url: /pt/#about
-      # program:
-      #   label: Envia sua palestra
-      #   url: https://www.papercall.io/sotm-latam-2018
-      #   label: Programa
-      #   url: /pt/#program
       venue:
         label: Local
         url: /pt/#venue
-      # register:
-      #  label: Inscreva-se
-      #  url: https://sotmlatam2018.eventbrite.com.ar
       wiki:
         label: Wiki
         url: https://wiki.openstreetmap.org/wiki/Pt:State_of_the_Map_Latam_2024
@@ -123,7 +101,7 @@ t:
       headline: "A conferência latino-americana de OpenStreetMap"
       location: "Belém, Brasil"
       dates: "7 e 8 de dezembro de 2024"
-      register_button: "Registre-se"
+      registrations_button: "Inscreva-se"
       submit_presentation: "Envie sua Apresentação"        
     venue_section:
       title: "Local"
