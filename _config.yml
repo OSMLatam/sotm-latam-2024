@@ -16,7 +16,14 @@ registrations:
   open: true
   url: https://doity.com.br/sotm-latam-bra-2024
 
-program_stage: pre-call-for-proposals
+program: 
+  proposals: 
+    open: false
+    url: https://pretalx.com/sotm-latam-bra-2024/cfp
+  schedule:
+    ready: false
+    url: https://pretalx.com/sotm-latam-bra-2024/schedule
+  
 
 # Build settings
 markdown: kramdown
@@ -50,7 +57,7 @@ t:
       location: "Belém, Brazil"
       dates: "December 7 and 8, 2024"
       registrations_button: "Register Now"
-      submit_presentation: "Submit Your Presentation"
+      submit_proposal: "Submit Your Proposal"
     venue_section:
       title: "Venue"
       place_name: "Instituto Federal do Pará (IFPA)"
@@ -76,7 +83,7 @@ t:
       location: "Belém, Brasil"
       dates: "7 y 8 de diciembre, 2024"
       registrations_button: "Inscripciones"
-      submit_presentation: "Envía tu Ponencia"
+      submit_proposal: "Envía tu Ponencia"
     venue_section:
       title: "Lugar"
       place_name: "Instituto Federal do Pará (IFPA)"
@@ -102,7 +109,7 @@ t:
       location: "Belém, Brasil"
       dates: "7 e 8 de dezembro de 2024"
       registrations_button: "Inscreva-se"
-      submit_presentation: "Envie sua Apresentação"        
+      submit_proposal: "Envie sua atividade"        
     venue_section:
       title: "Local"
       place_name: "Instituto Federal do Pará (IFPA)"

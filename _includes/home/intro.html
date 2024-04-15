@@ -8,21 +8,28 @@
           <div class="intro-headline">{{ site.t[page.lang].intro_section.headline }}</div>
           <div class="intro-dates">{{ site.t[page.lang].intro_section.dates }}</div>
           <div class="about-button">
-            {{ if site.registrations.open }}
+            {% if site.registrations.open %}
             <span class="col-xs-12 col-sm-4 btn-item">
               <a class="btn btn-default" href="{{ site.registrations.url }}""
                 target=" _blank" role="button">{{ site.t[page.lang].intro_section.registrations_button }}</a>
             </span>
-            {{ end }}
+            {% endif %}
             <span class="col-xs-12 col-sm-4 btn-item">
               <a href="#about" class="btn btn-circle page-scroll">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
             </span>
+            {% if site.program.proposals.open %}
             <span class="col-xs-12 col-sm-4 btn-item">
-              <a target="_blank" class="btn btn-default" href="https://www.papercall.io/osmlatam" role="button">{{
-                site.t[page.lang].intro_section.submit_presentation }}</a>
+              <a target="_blank" class="btn btn-default" href="{{ site.program.proposals.url}}" role="button">{{
+                site.t[page.lang].intro_section.submit_proposal }}</a>
             </span>
+            {% elsif site.program.schedule.ready %}
+            <span class="col-xs-12 col-sm-4 btn-item">
+              <a target="_blank" class="btn btn-default" href="{{ site.program.schedule.url }}" role="button">{{
+                site.t[page.lang].intro_section.schedule }}</a>
+            </span>
+            {% endif %}
           </div>
         </div>
       </div>
