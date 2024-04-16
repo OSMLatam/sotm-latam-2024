@@ -49,7 +49,7 @@ map_config:
 t:
   en:
     language_name: English
-    description: "Join us for the State of the Map LATAM 2024 in Belém, Brazil on December 7-8, 2024. Engage with experts and enthusiasts from across Latin America in this vibrant conference dedicated to fostering open mapping and innovative geospatial technologies."
+    description: "Join the OpenStreetMap Latin American community in the Amazon city of Belém do Pará from December 6-8, 2024, to discuss projects, share ideas, and strengthen our network."
     modal:
       abstract: Abstract
       close: Close
@@ -82,7 +82,7 @@ t:
       description: "Vivamus aliquet dignissim sapien, semper venenatis massa sagittis dictum. Mauris in magna rutrum, tristique est quis, venenatis nisl. Sed quis nibh nulla. Praesent eu volutpat urna. Maecenas venenatis, augue sed aliquam luctus, nibh lectus pellentesque magna, at egestas eros nisi sit amet lacus. In hac habitasse platea dictumst."
   es:
     language_name: Español
-    description: "Únase a nosotros para el State of the Map LATAM 2024 en Belém, Brasil, del 7 al 8 de diciembre de 2024. Participe con expertos y entusiastas de toda Latinoamérica en esta conferencia vibrante dedicada a fomentar la cartografía abierta y las tecnologías geoespaciales innovadoras."
+    description: "Únete a la comunidad de OpenStreetMap Latinoamérica en la ciudad amazónica de Belém do Pará, del 6 al 8 de diciembre de 2024, para discutir proyectos, compartir ideas y fortalecer nuestra red."
     modal:
       abstract: Ver resumen
       close: Cerrar
@@ -112,7 +112,7 @@ t:
       description: "Vivamus aliquet dignissim sapien, semper venenatis massa sagittis dictum. Mauris in magna rutrum, tristique est quis, venenatis nisl. Sed quis nibh nulla. Praesent eu volutpat urna. Maecenas venenatis, augue sed aliquam luctus, nibh lectus pellentesque magna, at egestas eros nisi sit amet lacus. In hac habitasse platea dictumst."
   pt:
     language_name: Português
-    description: "Junte-se a nós para o State of the Map LATAM 2024 em Belém, Brasil, de 7 a 8 de dezembro de 2024. Engaje com especialistas e entusiastas de toda a América Latina nesta conferência vibrante dedicada a fomentar o mapeamento aberto e tecnologias geoespaciais inovadoras."
+    description: "Reúna-se com a comunidade de OpenStreetMap da América Latina na cidade amazônica de Belém do Pará, de 6 a 8 de dezembro de 2024, para discutir projetos, compartilhar ideias e fortalecer nossa rede."
     modal:
       abstract: Ver resumo
       close: Fechar
