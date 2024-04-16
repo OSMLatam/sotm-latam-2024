@@ -23,7 +23,7 @@ jobs:
           bundler-cache: true
 
       - name: Build Jekyll site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --config _config.yml,_config-staging.yml
 
       - name: Set up Node
         uses: actions/setup-node@v4

@@ -2,9 +2,8 @@
 title: State of the Map LATAM 2024
 author: OpenStreetMap Latam
 email: info@osmlatam.org
-url: "https://2024.osmlatam.org/"
 baseurl: ""
-website: "https://2024.osmlatam.org/"
+website: "https://2024.osmlatam.org"
 exclude: [README.md]
 
 social:
