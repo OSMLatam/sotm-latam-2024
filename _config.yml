@@ -2,6 +2,10 @@
 title: State of the Map LATAM 2024
 author: OpenStreetMap Latam
 email: info@osmlatam.org
+contact_form_url:
+  pt: https://forms.gle/Ky19ce58sBeQt3rM6
+  en: https://forms.gle/bmoEfEsVwoJ31aFA9
+  es: https://forms.gle/v26G3sVFZ4o6At4Y8
 baseurl: ""
 website: "https://2024.osmlatam.org"
 exclude: [README.md]
@@ -30,10 +34,10 @@ registrations:
   url: https://doity.com.br/sotm-latam-bra-2024
 
 program:
-  # stage: call-for-proposals-will-open-soon
+  stage: call-for-proposals-will-open-soon
   # stage: call-for-proposals-open
   # stage: call-for-proposals-closed
-  stage: program-is-ready
+  # stage: program-is-ready
   url: https://pretalx.com/sotm-latam-bra-2024
 
 # Build settings
@@ -81,6 +85,10 @@ t:
       thank_you_submissions: "The submission of proposals is closed. The program committee is reviewing the submissions and we will announce the program soon."
       program_is_finalized: "Our program is finalized! Check out the complete schedule to plan your conference experience."
       view_program: "View Program"
+    sponsor_section:
+      sponsors_title: "Sponsorships"
+      sponsors_description: "Become a sponsor and gain direct access to a vibrant community of IT professionals, geographers, students, and other industry experts. This is an excellent opportunity to increase the visibility of your company and create valuable connections. For more information about sponsorship packages, please fill out our contact form."
+      contact_button: "Talk to Us"
 
     venue_section:
       title: "Venue"
@@ -121,6 +129,10 @@ t:
       thank_you_submissions: "El envío de propuestas ha terminado. El comité del programa está revisando las propuestas y pronto anunciaremos el programa."
       program_is_finalized: "¡Nuestro programa está finalizado! Consulta el cronograma completo para planificar tu experiencia en la conferencia."
       view_program: "Ver Programa"
+    sponsor_section:
+      sponsors_title: "Patrocinios"
+      sponsors_description: "Conviértase en patrocinador y obtenga acceso directo a una comunidad vibrante de profesionales de TI, geógrafos, estudiantes y otros expertos del sector. Esta es una excelente oportunidad para aumentar la visibilidad de su empresa y crear conexiones valiosas. Para más información sobre los paquetes de patrocinio, por favor, complete nuestro formulario de contacto."
+      contact_button: "Hable con nosotros"
 
     venue_section:
       title: "Lugar"
@@ -161,6 +173,10 @@ t:
       thank_you_submissions: "O envio de propostas está encerrado. O comitê de programa está revisando as propostas e, em breve, divulgaremos o programa."
       program_is_finalized: "Nosso programa está finalizado! Veja o cronograma completo para planejar sua experiência na conferência."
       view_program: "Visualizar Programa"
+    sponsor_section:
+      sponsors_title: "Patrocínios"
+      sponsors_description: "Torne-se um patrocinador e obtenha acesso direto a uma comunidade vibrante de profissionais de TI, geógrafos, estudantes e outros especialistas do setor. Esta é uma excelente oportunidade para aumentar a visibilidade da sua empresa e criar conexões valiosas. Para mais informações sobre os pacotes de patrocínio, por favor, preencha nosso formulário de contato."
+      contact_button: "Fale conosco"
     venue_section:
       title: "Local"
       place_name: "Instituto Federal do Pará (IFPA)"
