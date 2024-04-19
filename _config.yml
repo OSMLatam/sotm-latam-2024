@@ -30,12 +30,11 @@ registrations:
   url: https://doity.com.br/sotm-latam-bra-2024
 
 program:
-  proposals:
-    open: false
-    url: https://pretalx.com/sotm-latam-bra-2024/cfp
-  schedule:
-    ready: false
-    url: https://pretalx.com/sotm-latam-bra-2024/schedule
+  # stage: call-for-proposals-will-open-soon
+  # stage: call-for-proposals-open
+  # stage: call-for-proposals-closed
+  stage: program-is-ready
+  url: https://pretalx.com/sotm-latam-bra-2024
 
 # Build settings
 markdown: kramdown
@@ -75,7 +74,13 @@ t:
       submit_proposal: "Submit Your Proposal"
     program_section:
       title: "Program"
-      description: "Vivamus aliquet dignissim sapien, semper venenatis massa sagittis dictum. Mauris in magna rutrum, tristique est quis, venenatis nisl. Sed quis nibh nulla. Praesent eu volutpat urna. Maecenas venenatis, augue sed aliquam luctus, nibh lectus pellentesque magna, at egestas eros nisi sit amet lacus. In hac habitasse platea dictumst."
+      call_for_proposals_will_open_soon: "The call for activities will open soon!"
+      call_for_proposals_open: "Call for proposals is open!"
+      submit_your_proposal: "Submit your proposal"
+      thank_you_submissions: "The submission of proposals is closed. The program committee is reviewing the submissions and we will announce the program soon."
+      program_is_finalized: "Our program is finalized! Check out the complete schedule to plan your conference experience."
+      view_program: "View Program"
+
     venue_section:
       title: "Venue"
       place_name: "Instituto Federal do Pará (IFPA)"
@@ -106,6 +111,15 @@ t:
       dates: "6, 7 y 8 de diciembre, 2024"
       registrations_button: "Inscripciones"
       submit_proposal: "Envía tu Ponencia"
+    program_section:
+      title: "Programa"
+      call_for_proposals_will_open_soon: "La convocatoria de actividades se abrirá pronto!"
+      call_for_proposals_open: "¡La convocatoria de propuestas está abierta!"
+      submit_your_proposal: "Envía tu propuesta"
+      thank_you_submissions: "El envío de propuestas ha terminado. El comité del programa está revisando las propuestas y pronto anunciaremos el programa."
+      program_is_finalized: "¡Nuestro programa está finalizado! Consulta el cronograma completo para planificar tu experiencia en la conferencia."
+      view_program: "Ver Programa"
+
     venue_section:
       title: "Lugar"
       place_name: "Instituto Federal do Pará (IFPA)"
@@ -136,6 +150,14 @@ t:
       dates: "6, 7 e 8 de dezembro de 2024"
       registrations_button: "Inscreva-se"
       submit_proposal: "Envie sua atividade"
+    program_section:
+      title: "Programa"
+      call_for_proposals_will_open_soon: "A chamada de atividades será aberta em breve!"
+      call_for_proposals_open: "Chamada de propostas está aberta!"
+      submit_your_proposal: "Envie sua proposta"
+      thank_you_submissions: "O envio de propostas está encerrado. O comitê de programa está revisando as propostas e, em breve, divulgaremos o programa."
+      program_is_finalized: "Nosso programa está finalizado! Veja o cronograma completo para planejar sua experiência na conferência."
+      view_program: "Visualizar Programa"
     venue_section:
       title: "Local"
       place_name: "Instituto Federal do Pará (IFPA)"
