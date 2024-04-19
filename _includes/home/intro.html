@@ -1,3 +1,5 @@
+{% assign t = site.t[page.lang] %}
+
 <div class="intro">
   <div class="intro-body">
     <div class="container">
@@ -5,13 +7,13 @@
         <div class="col-md-8 col-md-offset-2">
           <img src="https://placehold.co/220x320" class="intro-logo" alt="State of the Map Latam 2024 Logo">
 
-          <div class="intro-headline">{{ site.t[page.lang].intro_section.headline }}</div>
-          <div class="intro-dates">{{ site.t[page.lang].intro_section.dates }}</div>
+          <div class="intro-headline">{{ t.intro_section.headline }}</div>
+          <div class="intro-dates">{{ t.intro_section.dates }}</div>
           <div class="about-button">
             {% if site.registrations.open %}
             <span class="col-xs-12 col-sm-4 btn-item">
-              <a class="btn btn-default" href="{{ site.registrations.url }}""
-                target=" _blank" role="button">{{ site.t[page.lang].intro_section.registrations_button }}</a>
+              <a class="btn btn-default" href="{{ site.registrations.url }}" target="_blank" role="button">{{
+                t.intro_section.registrations_button }}</a>
             </span>
             {% endif %}
             <span class="col-xs-12 col-sm-4 btn-item">
@@ -19,15 +21,15 @@
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
             </span>
-            {% if site.program.proposals.open %}
+            {% if site.program.stage == 'call-for-proposals-open' %}
             <span class="col-xs-12 col-sm-4 btn-item">
-              <a target="_blank" class="btn btn-default" href="{{ site.program.proposals.url}}" role="button">{{
-                site.t[page.lang].intro_section.submit_proposal }}</a>
+              <a target="_blank" class="btn btn-default" href="{{ site.program.proposals.url }}" role="button">{{
+                t.intro_section.submit_proposal }}</a>
             </span>
-            {% elsif site.program.schedule.ready %}
+            {% elsif site.program.stage == 'program-is-ready' %}
             <span class="col-xs-12 col-sm-4 btn-item">
-              <a target="_blank" class="btn btn-default" href="{{ site.program.schedule.url }}" role="button">{{
-                site.t[page.lang].intro_section.schedule }}</a>
+              <a target="_blank" class="btn btn-default" href="{{ site.program.url }}" role="button">{{
+                t.intro_section.view_program }}</a>
             </span>
             {% endif %}
           </div>
