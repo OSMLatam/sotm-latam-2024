@@ -57,18 +57,15 @@ t:
       abstract: Abstract
       close: Close
     menu:
-      about:
-        label: About
-        url: /en/#about
       program:
         label: Program
         url: /en/#program
       sponsors:
         label: Sponsors
         url: /en/#sponsors
-      access:
-        label: How to get there
-        url: /en/#access
+      guide:
+        label: Event Guide
+        url: /en/event-guide
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "The Latin American OpenStreetMap Conference"
@@ -101,18 +98,15 @@ t:
       abstract: Ver resumen
       close: Cerrar
     menu:
-      about:
-        label: Acerca de
-        url: /#about
       program:
         label: Programa
         url: /#program
       sponsors:
         label: Patrocinadores
         url: /#sponsors
-      access:
-        label: Cómo llegar
-        url: /#access
+      guide:
+        label: Guía del Evento
+        url: /guia-del-evento
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "La conferencia latinoamericana de OpenStreetMap"
@@ -145,18 +139,15 @@ t:
       abstract: Ver resumo
       close: Fechar
     menu:
-      about:
-        label: Sobre
-        url: /pt/#about
       program:
         label: Programa
         url: /pt/#program
       sponsors:
         label: Patrocinadores
         url: /pt/#sponsors
-      access:
-        label: Como Chegar
-        url: /pt/#access
+      guide:
+        label: Guia do Evento
+        url: /pt/guia-do-evento
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "A conferência latino-americana de OpenStreetMap"
