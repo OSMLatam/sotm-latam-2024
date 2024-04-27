@@ -3,9 +3,9 @@ title: State of the Map LATAM 2024
 author: OpenStreetMap Latam
 email: info@osmlatam.org
 contact_form_url:
-  pt: https://forms.gle/Ky19ce58sBeQt3rM6
-  en: https://forms.gle/bmoEfEsVwoJ31aFA9
-  es: https://forms.gle/v26G3sVFZ4o6At4Y8
+  pt: https://forms.gle/jgPoeGkrALZv5MJM7
+  en: https://forms.gle/r3JXZsUNi5uxJ5Fj9
+  es: https://forms.gle/aW3VLGV1B36dz4FF6
 baseurl: ""
 website: "https://2024.osmlatam.org"
 exclude: [README.md]
@@ -98,7 +98,10 @@ t:
     sponsor_section:
       sponsors_title: "Sponsorships"
       sponsors_description: "Become a sponsor and gain direct access to a vibrant community of IT professionals, geographers, students, and other industry experts. This is an excellent opportunity to increase the visibility of your company and create valuable connections. For more information about sponsorship packages, please fill out our contact form."
-      contact_button: "Talk to Us"
+    contact_section:
+      title: "Contact"
+      description: "If you have any questions or need more information, please contact us."
+      button_title: "Visit our contact form"
 
     venue_section:
       title: "Venue"
@@ -140,6 +143,10 @@ t:
       sponsors_title: "Patrocinios"
       sponsors_description: "Conviértase en patrocinador y obtenga acceso directo a una comunidad vibrante de profesionales de TI, geógrafos, estudiantes y otros expertos del sector. Esta es una excelente oportunidad para aumentar la visibilidad de su empresa y crear conexiones valiosas. Para más información sobre los paquetes de patrocinio, por favor, complete nuestro formulario de contacto."
       contact_button: "Hable con nosotros"
+    contact_section:
+      title: "Contacto"
+      description: "Si tienes alguna pregunta o necesitas más información, por favor contáctanos."
+      button_title: "Visita nuestro formulario de contacto"
 
     venue_section:
       title: "Lugar"
@@ -181,7 +188,7 @@ t:
       sponsors_title: "Patrocínios"
       sponsors_description: "Torne-se um patrocinador e obtenha acesso direto a uma comunidade vibrante de profissionais de TI, geógrafos, estudantes e outros especialistas do setor. Esta é uma excelente oportunidade para aumentar a visibilidade da sua empresa e criar conexões valiosas. Para mais informações sobre os pacotes de patrocínio, por favor, preencha nosso formulário de contato."
       contact_button: "Fale conosco"
-    venue_section:
-      title: "Local"
-      place_name: "Instituto Federal do Pará (IFPA)"
-      description: "Vivamus aliquet dignissim sapien, semper venenatis massa sagittis dictum. Mauris in magna rutrum, tristique est quis, venenatis nisl. Sed quis nibh nulla. Praesent eu volutpat urna. Maecenas venenatis, augue sed aliquam luctus, nibh lectus pellentesque magna, at egestas eros nisi sit amet lacus. In hac habitasse platea dictumst."
+    contact_section:
+      title: "Contato"
+      description: "Se você tiver alguma dúvida ou precisar de mais informações, entre em contato conosco."
+      button_title: "Visite nosso formulário de contato"
