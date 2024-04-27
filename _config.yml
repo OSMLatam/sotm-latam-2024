@@ -57,7 +57,8 @@ markdown: kramdown
 
 # Venue
 map_config:
-  coordinates: [-1.43792, -48.46148] # Latitude, Longitude
+  map_center: [-1.43797, -48.46028] # Latitude and Longitude
+  marker_lat_lng: [-1.43848, -48.46025]
   zoom_level: 18
 
 # Translations

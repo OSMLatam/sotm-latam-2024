@@ -14,6 +14,10 @@ body {
   background-color: $color-background-body;
 }
 
+.content-section {
+  padding-top: 100px;
+}
+
 .btn-default {
   color: $color-text-default;
   border-color: $color-border-default;
@@ -23,6 +27,14 @@ body {
     background-color: $color-text-default;
     border-color: $color-border-default;
   }
+}
+
+#map {
+  margin-top: 100px;
+}
+
+.footer {
+  padding: 150px 0;
 }
 
 .intro {
@@ -96,6 +108,3 @@ body {
   text-shadow: 2px 2px 4px $color-text-shadow; // Text shadow for legibility
 }
 
-#map {
-  margin-top: 100px;
-}
