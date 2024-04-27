@@ -1,9 +1,16 @@
 <footer class="footer container">
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-8">
       <p class="text-muted">© 2024 OpenStreetMap Latam</p>
+      <p class="text-muted">
+        Background image by
+        <a href="https://commons.wikimedia.org/wiki/File:Amanhecer_no_Ver-o-Peso.jpg" target="_blank"
+          rel="noopener noreferrer">
+          Helderserralva
+        </a>
+      </p>
     </div>
-    <div class="col-md-4 col-md-offset-4 text-right">
+    <div class="col-md-4 text-right">
       <ul class="list-inline">
         {% for social in site.social %}
         <li><a class="text-muted" href="{{ social[1].url }}"><i class="fa {{ social[1].font_awesome_icon }}"
@@ -13,6 +20,7 @@
     </div>
   </div>
 </footer>
+
 
 
 
