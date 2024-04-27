@@ -12,6 +12,13 @@ $color-text-shadow: rgba(0, 0, 0, 0.7);
 
 body {
   background-color: $color-background-body;
+  ul {
+    margin: 0 0 35px;
+  }
+}
+
+.page {
+  font-size: 20px;
 }
 
 .content-section {
@@ -30,7 +37,7 @@ body {
 }
 
 #map {
-  margin-top: 100px;
+  margin: 50px 0;
 }
 
 .footer {

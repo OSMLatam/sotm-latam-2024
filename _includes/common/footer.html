@@ -22,3 +22,44 @@
 <script src="{{ site.website }}/assets/vendor/jquery-2.2.4.min.js"></script>
 <script src="{{ site.website }}/assets/vendor/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{{ site.website }}/assets/vendor/grayscale-3.3.7/grayscale-3.3.7.min.js"></script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var mapElement = document.getElementById('map');
+    var coordinates = JSON.parse(mapElement.getAttribute('data-map_center'));
+    var markerLatLng = JSON.parse(mapElement.getAttribute('data-marker_lat_lng'));
+    var zoomLevel = parseInt(mapElement.getAttribute('data-zoom-level'), 10);
+
+    // Define the HTML content for the popup with better organization
+    var popupContent = `
+      <div style="color: black;">
+        <strong>IFPA - Instituto Federal do Pará</strong><br>
+        Avenida Almirante Barroso, nº 1155, Marco<br>
+        Belém, PA<br>
+        Brazil<br>
+        <br>
+        <a href="https://www.openstreetmap.org/way/537204680" target="_blank">
+          <i class="fa fa-map-marker"></i> OpenStreetMap
+        </a><br>
+        <a href="https://maps.apple.com/?q=IFPA, Avenida Almirante Barroso, 1155, Marco, Belém, PA, Brazil" target="_blank">
+          <i class="fa fa-map-marker"></i> Apple Maps
+        </a><br>
+        <a href="https://www.google.com/maps/search/?api=1&query=IFPA, Avenida Almirante Barroso, 1155, Marco, Belém, PA, Brazil" target="_blank">
+          <i class="fa fa-map-marker"></i> Google Maps
+        </a><br>
+        <a href="https://waze.com/ul?q=IFPA, Avenida Almirante Barroso, 1155, Marco, Belém, PA, Brazil" target="_blank">
+          <i class="fa fa-map-marker"></i> Waze
+        </a>
+      </div>
+    `;
+
+    var map = L.map('map', { scrollWheelZoom: false }).setView(coordinates, zoomLevel);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Create a marker and bind popup with content, and open it by default
+    var marker = L.marker(markerLatLng).addTo(map).bindPopup(popupContent).openPopup();
+  });
+</script>
