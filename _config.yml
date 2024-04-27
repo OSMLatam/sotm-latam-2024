@@ -11,23 +11,35 @@ website: "https://2024.osmlatam.org"
 exclude: [README.md]
 
 social:
-  facebook:
-    title: "Facebook"
-    url: "https://www.facebook.com/osmlatam"
-    icon: "fab fa-facebook"
+  mailing_list:
+    title: "Mailing List"
+    url: "https://lists.openstreetmap.org/listinfo/talk-latam"
+    font_awesome_icon: "fa-envelope"
+  telegram:
+    title: "Telegram"
+    url: "https://t.me/OSMLatam"
+    font_awesome_icon: "fa-telegram"
   twitter:
     title: "Twitter"
     handle: "@osmlatam"
     url: "https://twitter.com/osmlatam"
-    icon: "fab fa-twitter"
+    font_awesome_icon: "fa-twitter"
+  github:
+    title: "GitHub"
+    url: "https://github.com/OSMLatam/sotm-latam-2024"
+    font_awesome_icon: "fa-github"
+  facebook:
+    title: "Facebook"
+    url: "https://www.facebook.com/osmlatam"
+    font_awesome_icon: "fa-facebook"
   youtube:
     title: "YouTube"
     url: "https://www.youtube.com/channel/UCzYgQtCudy1ihZYAlpC3EXQ"
-    icon: "fab fa-youtube"
+    font_awesome_icon: "fa-youtube"
   linkedin:
     title: "LinkedIn"
     url: "https://www.linkedin.com/company/103151706/"
-    icon: "fab fa-linkedin"
+    font_awesome_icon: "fa-linkedin"
 
 registrations:
   open: true
