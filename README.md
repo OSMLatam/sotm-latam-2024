@@ -12,7 +12,10 @@ We encourage developers to contribute to the project. If you're interested in ma
 
 1. Ensure you have [Jekyll](https://jekyllrb.com/docs/installation/) installed.
 2. [Clone this repository](https://help.github.com/articles/cloning-a-repository/) to your local machine.
-3. In your terminal, run `jekyll serve --config _config.yml,_config-development.yml` to start the Jekyll server.
+3. In your terminal, run:
+
+    bundle exec jekyll serve -w --config _config.yml,_config-development.yml
+
 4. Visit `http://localhost:4000` in your web browser to view the website locally.
 
 Make your changes and submit a Pull Request (PR) following [this guide](https://help.github.com/articles/using-pull-requests/).
