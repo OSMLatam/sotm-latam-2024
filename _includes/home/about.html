@@ -42,14 +42,24 @@
     var mapElement = document.getElementById('map');
     var coordinates = JSON.parse(mapElement.getAttribute('data-coordinates'));
     var zoomLevel = parseInt(mapElement.getAttribute('data-zoom-level'), 10);
-    var popupContent = mapElement.getAttribute('data-popup-content');
+
+    // Define the HTML content for the popup with better organization
+    var popupContent = `
+      <div style="color: black;">
+        <strong>IFPA - Instituto Federal do Pará</strong><br>
+        Avenida Almirante Barroso, nº 1155, Marco<br>
+        Belém, PA<br>
+        Brazil<br>
+        <a href="https://www.openstreetmap.org/way/537204680" target="_blank">View on OpenStreetMap</a>
+      </div>
+    `;
 
     var map = L.map('map', { scrollWheelZoom: false }).setView(coordinates, zoomLevel);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    L.marker(coordinates)
-      .addTo(map);
+    // Create a marker and bind popup with content, and open it by default
+    var marker = L.marker(coordinates).addTo(map).bindPopup(popupContent).openPopup();
   });
 </script>
