@@ -1,6 +1,7 @@
 ---
 layout: page
 lang: es
+ref: guide
 ---
 
 # Guía del Evento
