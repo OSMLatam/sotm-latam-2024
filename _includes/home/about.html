@@ -10,7 +10,6 @@
     OpenStreetMap para compartilhar experiências, aprender e colaborar com o projeto.
   </p>
 
-  <p></p>
 
   {% when "en" %}
   <h2>About this event</h2>
@@ -29,4 +28,28 @@
   </p>
 
   {% endcase %}
+
+
+  <div id="map" data-coordinates="{{ site.map_config.coordinates | jsonify }}"
+    data-zoom-level="{{ site.map_config.zoom_level }}"
+    data-popup-content="{{ site.map_config.popup_content | escape }}">
+  </div>
+
 </section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var mapElement = document.getElementById('map');
+    var coordinates = JSON.parse(mapElement.getAttribute('data-coordinates'));
+    var zoomLevel = parseInt(mapElement.getAttribute('data-zoom-level'), 10);
+    var popupContent = mapElement.getAttribute('data-popup-content');
+
+    var map = L.map('map', { scrollWheelZoom: false }).setView(coordinates, zoomLevel);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker(coordinates)
+      .addTo(map);
+  });
+</script>
