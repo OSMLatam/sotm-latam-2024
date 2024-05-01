@@ -50,11 +50,12 @@ body {
   height: 100vh; 
   background: url('/assets/images/intro-background-1920.jpg') no-repeat center center;
   background-size: cover; 
-  color: $color-text-default; // Add white color for text
+  color: $color-text-default; 
+  isolation: isolate; 
 
   .intro-logo {
     display: block;
-    margin: 0 auto; // Centers the image
+    margin: 0 auto; 
     border-bottom: 1px solid $color-text-default;
     width: 100%;
     height: auto;
