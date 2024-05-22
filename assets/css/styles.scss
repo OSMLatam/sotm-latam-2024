@@ -54,18 +54,14 @@ body {
   isolation: isolate; 
 
   .intro-logo {
-    display: block;
-    margin: 0 auto; 
-    border-bottom: 1px solid $color-text-default;
-    width: 100%;
-    height: auto;
+    width: 33vw; /* Set the width to one third of the viewport width */
+    max-width: 100%; /* Ensure it doesn't exceed the container width */
+    height: auto; /* Maintain the aspect ratio */
+  }
 
-    @media (min-width: 768px) {
-      width: 50%;
-    }
-
-    @media (min-width: 992px) {
-      width: 50%;
+  @media (max-width: 768px) {
+    .intro-logo {
+      width: 50vw; /* Adjust the width for smaller screens */
     }
   }
 
