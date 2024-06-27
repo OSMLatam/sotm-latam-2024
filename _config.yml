@@ -96,8 +96,9 @@ t:
       program_is_finalized: "Our program is finalized! Check out the complete schedule to plan your conference experience."
       view_program: "View Program"
     sponsor_section:
-      sponsors_title: "Sponsorships"
-      sponsors_description: "Become a sponsor and gain direct access to a vibrant community of IT professionals, geographers, students, and other industry experts. This is an excellent opportunity to increase the visibility of your company and create valuable connections. For more information about sponsorship packages, please fill out our contact form."
+      sponsors_title: "Sponsors"
+      sponsors_description: "Become a sponsor and gain direct access to a vibrant community of IT professionals, geographers, students, and other industry experts. This is an excellent opportunity to increase your company's visibility and create valuable connections."
+      brochure_button: "Download the sponsorship brochure"
     contact_section:
       title: "Contact"
       description: "If you have any questions or need more information, please contact us."
@@ -141,8 +142,8 @@ t:
       view_program: "Ver Programa"
     sponsor_section:
       sponsors_title: "Patrocinios"
-      sponsors_description: "Conviértase en patrocinador y obtenga acceso directo a una comunidad vibrante de profesionales de TI, geógrafos, estudiantes y otros expertos del sector. Esta es una excelente oportunidad para aumentar la visibilidad de su empresa y crear conexiones valiosas. Para más información sobre los paquetes de patrocinio, por favor, complete nuestro formulario de contacto."
-      contact_button: "Hable con nosotros"
+      sponsors_description: "Conviértase en patrocinador y obtenga acceso directo a una comunidad vibrante de profesionales de TI, geógrafos, estudiantes y otros expertos del sector. Esta es una excelente oportunidad para aumentar la visibilidad de su empresa y crear conexiones valiosas."
+      brochure_button: "Descargue el folleto de patrocinio"
     contact_section:
       title: "Contacto"
       description: "Si tienes alguna pregunta o necesitas más información, por favor contáctanos."
@@ -186,8 +187,8 @@ t:
       view_program: "Visualizar Programa"
     sponsor_section:
       sponsors_title: "Patrocínios"
-      sponsors_description: "Torne-se um patrocinador e obtenha acesso direto a uma comunidade vibrante de profissionais de TI, geógrafos, estudantes e outros especialistas do setor. Esta é uma excelente oportunidade para aumentar a visibilidade da sua empresa e criar conexões valiosas. Para mais informações sobre os pacotes de patrocínio, por favor, preencha nosso formulário de contato."
-      contact_button: "Fale conosco"
+      sponsors_description: "Torne-se um patrocinador e obtenha acesso direto a uma comunidade vibrante de profissionais de TI, geógrafos, estudantes e outros especialistas do setor. Esta é uma excelente oportunidade para aumentar a visibilidade da sua empresa e criar conexões valiosas."
+      brochure_button: "Baixe o folder de patrocínio"
     contact_section:
       title: "Contato"
       description: "Se você tiver alguma dúvida ou precisar de mais informações, entre em contato conosco."
