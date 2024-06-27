@@ -3,7 +3,11 @@
     {% assign t = site.t[page.lang].program_section %}
     {% assign program_stage = site.program.stage %}
 
-    <h2>{{ t.title }}</h2>
+    <h2>
+      <a href="#program">
+        {{ t.title }}
+      </a>
+    </h2>
 
     {% case program_stage %}
     {% when "call-for-proposals-will-open-soon" %}

@@ -1,8 +1,12 @@
 {% assign t = site.t[page.lang].contact_section %}
 {% assign contact_url = site.contact_form_url[page.lang] %}
 
-<section id="sponsors" class="container content-section text-center">
-  <h1>{{ t.title }}</h1>
+<section id="contact" class="container content-section text-center">
+  <h2>
+    <a href="#contact">
+      {{ t.title }}
+    </a>
+  </h2>
   <p>{{ t.description }}</p>
   <a target="_blank" href="{{ contact_url }}" class="btn btn-default">{{ t.button_title }}</a>
 </section>
