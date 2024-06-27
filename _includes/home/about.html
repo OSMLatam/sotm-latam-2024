@@ -1,38 +1,15 @@
+{% assign t = site.t[page.lang].about_section %}
+
 <section id="about" class="container content-section text-center">
-  {% assign language = page.lang %}
-
-  {% case language %}
-  {% when "pt" %}
-  <h2>Sobre este evento</h2>
-  <p>
-    O State of the Map Latam 2024, sediado em Belém do Pará, é a sexta conferência latino-americana do OpenStreetMap. O
-    evento, organizado pela comunidade, visa reunir mapeadores, desenvolvedores, pesquisadores e entusiastas do
-    OpenStreetMap para compartilhar experiências, aprender e colaborar com o projeto.
-  </p>
-
-
-  {% when "en" %}
-  <h2>About this event</h2>
-  <p>
-    The State of the Map Latam 2024, hosted in Belém do Pará, is the sixth Latin American OpenStreetMap conference. The
-    event, organized by the community, aims to bring together mappers, developers, researchers, and OpenStreetMap
-    enthusiasts to share experiences, learn, and collaborate on the project.
-  </p>
-
-  {% else %}
-  <h2>Acerca de este evento</h2>
-  <p>
-    El State of the Map Latam 2024, con sede en Belém do Pará, es la sexta conferencia latinoamericana de OpenStreetMap.
-    El evento, organizado por la comunidad, tiene como objetivo reunir a cartógrafos, desarrolladores, investigadores y
-    entusiastas de OpenStreetMap para compartir experiencias, aprender y colaborar en el proyecto.
-  </p>
-
-  {% endcase %}
-
+  <h2>
+    <a href="#about">
+      {{ t.title }}
+    </a>
+  </h2>
+  <p>{{ t.description }}</p>
 
   <div id="map" data-map_center="{{ site.map_config.map_center | jsonify }}"
     data-zoom-level="{{ site.map_config.zoom_level }}"
     data-marker_lat_lng="{{ site.map_config.marker_lat_lng | jsonify }}">
   </div>
-
 </section>

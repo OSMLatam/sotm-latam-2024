@@ -87,6 +87,9 @@ t:
       registrations_button: "Register Now"
       submit_proposal: "Submit Your Proposal"
       view_program: "View Program"
+    about_section:
+      title: "About this event"
+      description: "The State of the Map Latam 2024, hosted in Belém do Pará, is the sixth Latin American OpenStreetMap conference. The event, organized by the community, aims to bring together mappers, developers, researchers, and OpenStreetMap enthusiasts to share experiences, learn, and collaborate on the project."
     program_section:
       title: "Program"
       call_for_proposals_will_open_soon: "The call for activities will open soon!"
@@ -132,6 +135,9 @@ t:
       registrations_button: "Inscripciones"
       submit_proposal: "Envía tu Ponencia"
       view_program: "Ver Program"
+    about_section:
+      title: "Acerca de este evento"
+      description: "El State of the Map Latam 2024, con sede en Belém do Pará, es la sexta conferencia latinoamericana de OpenStreetMap. El evento, organizado por la comunidad, tiene como objetivo reunir a cartógrafos, desarrolladores, investigadores y entusiastas de OpenStreetMap para compartir experiencias, aprender y colaborar en el proyecto."
     program_section:
       title: "Programa"
       call_for_proposals_will_open_soon: "La convocatoria de actividades se abrirá pronto!"
@@ -177,6 +183,9 @@ t:
       registrations_button: "Inscreva-se"
       submit_proposal: "Envie sua atividade"
       view_program: "Ver Programa"
+    about_section:
+      title: "Sobre este evento"
+      description: "O State of the Map Latam 2024, sediado em Belém do Pará, é a sexta conferência latino-americana do OpenStreetMap. O evento, organizado pela comunidade, visa reunir mapeadores, desenvolvedores, pesquisadores e entusiastas do OpenStreetMap para compartilhar experiências, aprender e colaborar com o projeto."
     program_section:
       title: "Programa"
       call_for_proposals_will_open_soon: "A chamada de atividades será aberta em breve!"
