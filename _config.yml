@@ -79,6 +79,9 @@ t:
       guide:
         label: Event Guide
         url: /en/event-guide
+      blog:
+        label: Blog
+        url: https://blog.osmlatam.org
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "The Latin American OpenStreetMap Conference"
@@ -127,6 +130,9 @@ t:
       guide:
         label: Guía del Evento
         url: /guia-del-evento
+      blog:
+        label: Blog
+        url: https://blog.osmlatam.org
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "La conferencia latinoamericana de OpenStreetMap"
@@ -175,6 +181,9 @@ t:
       guide:
         label: Guia do Evento
         url: /pt/guia-do-evento
+      blog:
+        label: Blog
+        url: https://blog.osmlatam.org
     intro_section:
       alt_text: "State of the Map LATAM - Belém 2024"
       headline: "A conferência latino-americana de OpenStreetMap"
