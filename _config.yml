@@ -46,11 +46,11 @@ registrations:
   url: https://doity.com.br/sotm-latam-bra-2024
 
 program:
-  stage: call-for-proposals-will-open-soon
-  # stage: call-for-proposals-open
+  # stage: call-for-proposals-will-open-soon
+  stage: call-for-proposals-open
   # stage: call-for-proposals-closed
   # stage: program-is-ready
-  url: https://pretalx.com/sotm-latam-bra-2024
+  url: "https://talks.osgeo.org/sotm2024-latam"
 
 # Build settings
 markdown: kramdown
@@ -148,7 +148,7 @@ t:
       title: "Programa"
       call_for_proposals_will_open_soon: "La convocatoria de actividades se abrirá pronto!"
       call_for_proposals_open: "¡La convocatoria de propuestas está abierta!"
-      submit_your_proposal: "Envía tu propuesta"
+      submit_your_proposal: "Envía tu ponencia"
       thank_you_submissions: "El envío de propuestas ha terminado. El comité del programa está revisando las propuestas y pronto anunciaremos el programa."
       program_is_finalized: "¡Nuestro programa está finalizado! Consulta el cronograma completo para planificar tu experiencia en la conferencia."
       view_program: "Ver Programa"
