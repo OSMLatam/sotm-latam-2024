@@ -28,7 +28,11 @@
       <ul class="nav navbar-nav navbar-right">
         {% for menu in site.t[page.lang].menu %}
         <li>
+          {% if menu[1].url contains 'http' %}
+          <a href="{{ menu[1].url }}" target="_blank">{{ menu[1].label }}</a>
+          {% else %}
           <a href="{{ menu[1].url | prepend: site.baseurl }}">{{ menu[1].label }}</a>
+          {% endif %}
         </li>
         {% endfor %}
       </ul>
