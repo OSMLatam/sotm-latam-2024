@@ -46,11 +46,11 @@ registrations:
   url: https://doity.com.br/sotm-latam-bra-2024
 
 program:
-  stage: call-for-proposals-will-open-soon
-  # stage: call-for-proposals-open
+  # stage: call-for-proposals-will-open-soon
+  stage: call-for-proposals-open
   # stage: call-for-proposals-closed
   # stage: program-is-ready
-  url: https://pretalx.com/sotm-latam-bra-2024
+  url: "https://talks.osgeo.org/sotm2024-latam"
 
 # Build settings
 markdown: kramdown
@@ -96,11 +96,11 @@ t:
     program_section:
       title: "Program"
       call_for_proposals_will_open_soon: "The call for activities will open soon!"
-      call_for_proposals_open: "Call for proposals is open!"
-      submit_your_proposal: "Submit your proposal"
+      call_for_proposals_open: "Call for proposals is open! We use Pretalx, a user-friendly conference management platform, to handle submissions and build our program. Submit your proposals!"
+      submit_your_proposal: "Submit your proposal via Pretalx"
       thank_you_submissions: "The submission of proposals is closed. The program committee is reviewing the submissions and we will announce the program soon."
-      program_is_finalized: "Our program is finalized! Check out the complete schedule to plan your conference experience."
-      view_program: "View Program"
+      program_is_finalized: "Our program is finalized! Check out the complete schedule on Pretalx to plan your conference experience."
+      view_program: "View Program on Pretalx"
     sponsor_section:
       sponsors_title: "Sponsors"
       sponsors_description: "Become a sponsor and gain direct access to a vibrant community of IT professionals, geographers, students, and other industry experts. This is an excellent opportunity to increase your company's visibility and create valuable connections."
@@ -110,10 +110,6 @@ t:
       description: "If you have any questions or need more information, please contact us."
       button_title: "Visit our contact form"
 
-    venue_section:
-      title: "Venue"
-      place_name: "Instituto Federal do Pará (IFPA)"
-      description: "Vivamus aliquet dignissim sapien, semper venenatis massa sagittis dictum. Mauris in magna rutrum, tristique est quis, venenatis nisl. Sed quis nibh nulla. Praesent eu volutpat urna. Maecenas venenatis, augue sed aliquam luctus, nibh lectus pellentesque magna, at egestas eros nisi sit amet lacus. In hac habitasse platea dictumst."
   es:
     language_name: Español
     description: "Únete a la comunidad de OpenStreetMap Latinoamérica en la ciudad amazónica de Belém do Pará, del 6 al 8 de diciembre de 2024, para discutir proyectos, compartir ideas y fortalecer nuestra red."
@@ -140,18 +136,18 @@ t:
       dates: "6, 7 y 8 de diciembre, 2024"
       registrations_button: "Inscripciones"
       submit_proposal: "Envía tu Ponencia"
-      view_program: "Ver Program"
+      view_program: "Ver Programa"
     about_section:
       title: "Acerca de este evento"
       description: "El State of the Map Latam 2024, con sede en Belém do Pará, es la sexta conferencia latinoamericana de OpenStreetMap. El evento, organizado por la comunidad, tiene como objetivo reunir a cartógrafos, desarrolladores, investigadores y entusiastas de OpenStreetMap para compartir experiencias, aprender y colaborar en el proyecto."
     program_section:
       title: "Programa"
-      call_for_proposals_will_open_soon: "La convocatoria de actividades se abrirá pronto!"
-      call_for_proposals_open: "¡La convocatoria de propuestas está abierta!"
-      submit_your_proposal: "Envía tu propuesta"
+      call_for_proposals_will_open_soon: "¡La convocatoria de actividades se abrirá pronto!"
+      call_for_proposals_open: "¡La convocatoria de propuestas está abierta! Utilizamos Pretalx, una plataforma amigable de gestión de conferencias, para manejar las presentaciones y construir nuestro programa. ¡Envía tus propostas!"
+      submit_your_proposal: "Envía tu propuesta a través de Pretalx"
       thank_you_submissions: "El envío de propuestas ha terminado. El comité del programa está revisando las propuestas y pronto anunciaremos el programa."
-      program_is_finalized: "¡Nuestro programa está finalizado! Consulta el cronograma completo para planificar tu experiencia en la conferencia."
-      view_program: "Ver Programa"
+      program_is_finalized: "¡Nuestro programa está finalizado! Consulta el cronograma completo en Pretalx para planificar tu experiencia en la conferencia."
+      view_program: "Ver Programa en Pretalx"
     sponsor_section:
       sponsors_title: "Patrocinios"
       sponsors_description: "Conviértase en patrocinador y obtenga acceso directo a una comunidad vibrante de profesionales de TI, geógrafos, estudiantes y otros expertos del sector. Esta es una excelente oportunidad para aumentar la visibilidad de su empresa y crear conexiones valiosas."
@@ -161,10 +157,6 @@ t:
       description: "Si tienes alguna pregunta o necesitas más información, por favor contáctanos."
       button_title: "Visita nuestro formulario de contacto"
 
-    venue_section:
-      title: "Lugar"
-      place_name: "Instituto Federal do Pará (IFPA)"
-      description: "Vivamus aliquet dignissim sapien, semper venenatis massa sagittis dictum. Mauris in magna rutrum, tristique est quis, venenatis nisl. Sed quis nibh nulla. Praesent eu volutpat urna. Maecenas venenatis, augue sed aliquam luctus, nibh lectus pellentesque magna, at egestas eros nisi sit amet lacus. In hac habitasse platea dictumst."
   pt:
     language_name: Português
     description: "Reúna-se com a comunidade de OpenStreetMap da América Latina na cidade amazônica de Belém do Pará, de 6 a 8 de dezembro de 2024, para discutir projetos, compartilhar ideias e fortalecer nossa rede."
@@ -198,11 +190,11 @@ t:
     program_section:
       title: "Programa"
       call_for_proposals_will_open_soon: "A chamada de atividades será aberta em breve!"
-      call_for_proposals_open: "Chamada de propostas está aberta!"
-      submit_your_proposal: "Envie sua proposta"
+      call_for_proposals_open: "A chamada de propostas está aberta! Usamos o Pretalx, uma plataforma amigável de gerenciamento de conferências, para lidar com as submissões e construir nosso programa. Envie suas proposta!"
+      submit_your_proposal: "Envie sua proposta via Pretalx"
       thank_you_submissions: "O envio de propostas está encerrado. O comitê de programa está revisando as propostas e, em breve, divulgaremos o programa."
-      program_is_finalized: "Nosso programa está finalizado! Veja o cronograma completo para planejar sua experiência na conferência."
-      view_program: "Visualizar Programa"
+      program_is_finalized: "Nosso programa está finalizado! Veja o cronograma completo no Pretalx para planejar sua experiência na conferência."
+      view_program: "Visualizar Programa no Pretalx"
     sponsor_section:
       sponsors_title: "Patrocínios"
       sponsors_description: "Torne-se um patrocinador e obtenha acesso direto a uma comunidade vibrante de profissionais de TI, geógrafos, estudantes e outros especialistas do setor. Esta é uma excelente oportunidade para aumentar a visibilidade da sua empresa e criar conexões valiosas."
