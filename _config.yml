@@ -42,8 +42,8 @@ social:
     font_awesome_icon: "fa-linkedin"
 
 registrations:
-  open: false
-  url: https://doity.com.br/sotm-latam-bra-2024
+  open: true
+  url: https://doity.com.br/sotm-latam-2024/inscricao
 
 program:
   # stage: call-for-proposals-will-open-soon
