@@ -4,4 +4,38 @@
 <section id="sponsors" class="container content-section text-center">
   <h1>{{ t.sponsors_title }}</h1>
   <p>{{ t.sponsors_description }}</p>
+
+  <div id="sponsors-list">
+    <!-- First Row: Capibara -->
+    <div class="sponsor-row">
+      <h2>Capibara</h2>
+      <a href="https://about.meta.com" target="_blank">
+        <img src="/assets/images/sponsor_meta.png" alt="Meta" width="480">
+      </a>
+    </div>
+
+    <!-- Second Row: Guacamaya -->
+    <div class="sponsor-row">
+      <h2>Guacamaya</h2>
+      <a href="https://developmentseed.org/" target="_blank">
+        <img src="/assets/images/sponsor_development_seed.png" alt="Development Seed" width="256">
+      </a>
+      <a href="https://overturemaps.org/" target="_blank">
+        <img src="/assets/images/sponsor_overture.svg" alt="Overture Maps" width="256">
+      </a>
+      <a href="https://www.tomtom.com/" target="_blank">
+        <img src="/assets/images/sponsor_development_tomtom.png" alt="TomTom" width="256">
+      </a>
+    </div>
+  </div>
+
+  <style>
+    .sponsor-row {
+      margin-bottom: 20px;
+    }
+
+    .sponsor-row img {
+      margin: 10px;
+    }
+  </style>
 </section>
