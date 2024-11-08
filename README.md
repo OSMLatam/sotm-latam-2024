@@ -2,7 +2,7 @@
 
 Welcome to the repository containing the source code for the State of the Map LATAM 2024 website. We're currently in the development phase, and we welcome any feedback to improve the site. If you encounter errors or have suggestions for enhancements, please feel free to open an issue.
 
-**Current Status:** Work in Progress
+**Current Status:** Kinda functional
 
 For a sneak peek of the website, visit the [preview site](https://sotm-latam-2024.surge.sh/).
 
@@ -12,8 +12,10 @@ We encourage developers to contribute to the project. If you're interested in ma
 
 1. Ensure you have [Jekyll](https://jekyllrb.com/docs/installation/) installed.
 2. [Clone this repository](https://help.github.com/articles/cloning-a-repository/) to your local machine.
-3. In your terminal, run `jekyll serve --config _config.yml,_config-development.yml` to start the Jekyll server.
-4. Visit `http://localhost:4000` in your web browser to view the website locally.
+3. Install the necessary Ruby Gems (packages): `bundle install`
+4. In your terminal, run `jekyll serve --config _config.yml,_config-development.yml` to start the Jekyll server.
+    - In case of gems versions mismatch you can try to run as `bundle exec jekyll serve --config _config.yml,_config-development.yml`
+5. Visit `http://localhost:4000` in your web browser to view the website locally.
 
 Make your changes and submit a Pull Request (PR) following [this guide](https://help.github.com/articles/using-pull-requests/).
 

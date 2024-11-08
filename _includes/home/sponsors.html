@@ -5,10 +5,10 @@
   <h1>{{ t.sponsors_title }}</h1>
   <p>{{ t.sponsors_description }}</p>
 
-  <div id="sponsors-list">
+  <div class="sponsors-list">
     <!-- First Row: Capibara -->
     <div class="sponsor-row">
-      <h2>Capibara</h2>
+      <h2>Capibara Pack</h2>
       <a href="https://about.meta.com" target="_blank">
         <img src="/assets/images/sponsor_meta.png" alt="Meta" width="480">
       </a>
@@ -16,7 +16,7 @@
 
     <!-- Second Row: Guacamaya -->
     <div class="sponsor-row">
-      <h2>Guacamaya</h2>
+      <h2 style="font-size: medium;margin-bottom: 20px;">Guacamaya Pack</h2>
       <a href="https://developmentseed.org/" target="_blank">
         <img src="/assets/images/sponsor_development_seed.png" alt="Development Seed" width="256">
       </a>
@@ -24,18 +24,26 @@
         <img src="/assets/images/sponsor_overture.svg" alt="Overture Maps" width="256">
       </a>
       <a href="https://www.tomtom.com/" target="_blank">
-        <img src="/assets/images/sponsor_development_tomtom.png" alt="TomTom" width="256">
+        <img src="/assets/images/sponsor_tomtom.png" alt="TomTom" width="256">
       </a>
     </div>
   </div>
 
   <style>
+    .sponsors-list {
+      padding: 10px;
+      background-color: #ffffff99;
+    }
+
     .sponsor-row {
-      margin-bottom: 20px;
+      margin-top: 40px;
+      font-size: medium;
+      margin-bottom: 20px; 
     }
 
     .sponsor-row img {
-      margin: 10px;
+      margin: 1px;
+      margin-right: 20px;
     }
   </style>
 </section>
