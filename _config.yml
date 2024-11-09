@@ -48,9 +48,9 @@ registrations:
 program:
   # stage: call-for-proposals-will-open-soon
   # stage: call-for-proposals-open
-  stage: call-for-proposals-closed
-  # stage: program-is-ready
-  url: "https://talks.osgeo.org/sotm2024-latam"
+  # stage: call-for-proposals-closed
+  stage: program-is-ready
+  url: "https://talks.osgeo.org/sotm2024-latam/schedule"
 
 # Build settings
 markdown: kramdown
