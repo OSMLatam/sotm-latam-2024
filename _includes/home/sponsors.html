@@ -9,6 +9,45 @@
     </a>
   </h2>
   <p>{{ t.sponsors_description }}</p>
-  <a target="_blank" href="{{ site.baseurl }}/assets/documents/sotm-latam-2024-sponsor-brochure-{{ page.lang }}.pdf"
-    class="btn btn-default">{{ t.brochure_button }}</a>
+  <div class="sponsors-list">
+    <!-- First Row: Capibara -->
+    <div class="sponsor-row">
+      <h2>Capibara Pack</h2>
+      <a href="https://about.meta.com" target="_blank">
+        <img src="/assets/images/sponsor_meta.png" alt="Meta" width="480">
+      </a>
+    </div>
+
+    <!-- Second Row: Guacamaya -->
+    <div class="sponsor-row">
+      <h2 style="font-size: medium;margin-bottom: 20px;">Guacamaya Pack</h2>
+      <a href="https://developmentseed.org/" target="_blank">
+        <img src="/assets/images/sponsor_development_seed.png" alt="Development Seed" width="256">
+      </a>
+      <a href="https://overturemaps.org/" target="_blank">
+        <img src="/assets/images/sponsor_overture.svg" alt="Overture Maps" width="256">
+      </a>
+      <a href="https://www.tomtom.com/" target="_blank">
+        <img src="/assets/images/sponsor_tomtom.png" alt="TomTom" width="256">
+      </a>
+    </div>
+  </div>
+
+  <style>
+    .sponsors-list {
+      padding: 10px;
+      background-color: #ffffff99;
+    }
+
+    .sponsor-row {
+      margin-top: 40px;
+      font-size: medium;
+      margin-bottom: 20px;
+    }
+
+    .sponsor-row img {
+      margin: 1px;
+      margin-right: 20px;
+    }
+  </style>
 </section>
