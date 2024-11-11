@@ -10,38 +10,50 @@
   </h2>
   <p>{{ t.sponsors_description }}</p>
   <div class="sponsors-list">
-    <!-- First Row: Capibara -->
-    <div class="sponsor-row">
-      <h2>Capibara Pack</h2>
-      <a href="https://about.meta.com" target="_blank">
-        <img src="/assets/images/sponsor_meta.png" alt="Meta" width="480">
+    <div class="sponsor-row delfin">
+      <h2>Delfin</h2>
+      <a href="https://www.hotosm.org/" target="_blank">
+        <img src="/assets/images/sponsors/HOT.png" alt="HOTOSM" width="480">
       </a>
     </div>
 
-    <!-- Second Row: Guacamaya -->
-    <div class="sponsor-row">
-      <h2 style="font-size: medium;margin-bottom: 20px;">Guacamaya Pack</h2>
+    <div class="sponsor-row capibara">
+      <h2>Capibara</h2>
+      <a href="https://about.meta.com" target="_blank">
+        <img src="/assets/images/sponsors/meta.png" alt="Meta" width="480">
+      </a>
+    </div>
+
+    <div class="sponsor-row guacamaya">
+      <h2 style="font-size: medium;margin-bottom: 20px;">Guacamaya</h2>
       <a href="https://developmentseed.org/" target="_blank">
-        <img src="/assets/images/sponsor_development_seed.png" alt="Development Seed" width="256">
+        <img src="/assets/images/sponsors/development_seed.png" alt="Development Seed" width="256">
       </a>
       <a href="https://overturemaps.org/" target="_blank">
-        <img src="/assets/images/sponsor_overture.svg" alt="Overture Maps" width="256">
+        <img src="/assets/images/sponsors/overture.svg" alt="Overture Maps" width="256">
       </a>
       <a href="https://www.tomtom.com/" target="_blank">
-        <img src="/assets/images/sponsor_tomtom.png" alt="TomTom" width="256">
+        <img src="/assets/images/sponsors/tomtom.png" alt="TomTom" width="256">
       </a>
     </div>
   </div>
 
   <style>
     .sponsors-list {
-      padding: 10px;
-      background-color: #ffffff99;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
     }
 
     .sponsor-row {
       margin-top: 40px;
       font-size: medium;
+      margin-bottom: 20px;
+    }
+
+    .sponsor-row h2 {
+      color: #333333;
       margin-bottom: 20px;
     }
 
@@ -52,6 +64,31 @@
       max-height: 100%;
     }
 
+    /* Sponsor tier-specific image sizes */
+    .delfin img {
+      max-width: 350px;
+    }
 
+    .capibara img {
+      max-width: 200px;
+    }
+
+    .guacamaya img {
+      max-width: 150px;
+    }
+
+    @media (max-width: 768px) {
+      .delfin img {
+        max-width: 250px;
+      }
+
+      .capibara img {
+        max-width: 175px;
+      }
+
+      .guacamaya img {
+        max-width: 90px;
+      }
+    }
   </style>
 </section>
