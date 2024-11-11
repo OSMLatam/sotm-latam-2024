@@ -52,6 +52,8 @@ program:
   stage: program-is-ready
   url: "https://talks.osgeo.org/sotm2024-latam/schedule"
 
+sponsorship_campaign_is_open: true
+
 # Build settings
 markdown: kramdown
 
@@ -102,9 +104,11 @@ t:
       program_is_finalized: "Our program is finalized! Check out the complete schedule on Pretalx to plan your conference experience."
       view_program: "View Program on Pretalx"
     sponsor_section:
-      sponsors_title: "Sponsors"
-      sponsors_description: "Become a sponsor and gain direct access to a vibrant community of IT professionals, geographers, students, and other industry experts. This is an excellent opportunity to increase your company's visibility and create valuable connections."
-      brochure_button: "Download the sponsorship brochure"
+      title: "Sponsors"
+      thank_you_sponsors: "We thank all our sponsors for supporting the event!"
+      campaign:
+        invite: "Our sponsorship campaign is open! Become a sponsor and gain direct access to a vibrant community of IT professionals, geographers, students, and other industry experts."
+        brochure_button: "Download the sponsorship brochure"
     contact_section:
       title: "Contact"
       description: "If you have any questions or need more information, please contact us."
@@ -149,9 +153,11 @@ t:
       program_is_finalized: "¡Nuestro programa está finalizado! Consulta el cronograma completo en Pretalx para planificar tu experiencia en la conferencia."
       view_program: "Ver Programa en Pretalx"
     sponsor_section:
-      sponsors_title: "Patrocinios"
-      sponsors_description: "Conviértase en patrocinador y obtenga acceso directo a una comunidad vibrante de profesionales de TI, geógrafos, estudiantes y otros expertos del sector. Esta es una excelente oportunidad para aumentar la visibilidad de su empresa y crear conexiones valiosas."
-      brochure_button: "Descargue el folleto de patrocinio"
+      title: "Patrocinios"
+      thank_you_sponsors: "¡Agradecemos a todos nuestros patrocinadores por apoyar el evento!"
+      campaign:
+        invite: "¡Nuestra campaña de patrocinio está abierta! Conviértete en patrocinador y accede directamente a una comunidad vibrante de profesionales de TI, geógrafos, estudiantes y otros expertos del sector."
+        brochure_button: "Descargue el folleto de patrocinio"
     contact_section:
       title: "Contacto"
       description: "Si tienes alguna pregunta o necesitas más información, por favor contáctanos."
@@ -196,9 +202,11 @@ t:
       program_is_finalized: "Nosso programa está finalizado! Veja o cronograma completo no Pretalx para planejar sua experiência na conferência."
       view_program: "Visualizar Programa no Pretalx"
     sponsor_section:
-      sponsors_title: "Patrocínios"
-      sponsors_description: "Torne-se um patrocinador e obtenha acesso direto a uma comunidade vibrante de profissionais de TI, geógrafos, estudantes e outros especialistas do setor. Esta é uma excelente oportunidade para aumentar a visibilidade da sua empresa e criar conexões valiosas."
-      brochure_button: "Baixe o folder de patrocínio"
+      title: "Patrocínios"
+      thank_you_sponsors: "Agradecemos a todos os nossos patrocinadores por apoiar o evento!"
+      campaign:
+        invite: "Nossa campanha de patrocínio está aberta! Torne-se um patrocinador e tenha acesso direto a uma comunidade vibrante de profissionais de TI, geógrafos, estudantes e outros especialistas do setor."
+        brochure_button: "Baixe o folder de patrocínio"
     contact_section:
       title: "Contato"
       description: "Se você tiver alguma dúvida ou precisar de mais informações, entre em contato conosco."

@@ -112,3 +112,60 @@ body {
   text-shadow: 2px 2px 4px $color-text-shadow; // Text shadow for legibility
 }
 
+#sponsors {
+  .sponsors-list {
+    padding: 40px 20px 20px 0px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    margin-bottom: 35px;
+  }
+
+  .sponsor-row {
+    padding-bottom: 80px;
+    font-size: medium;
+  }
+
+  .sponsor-row:last-child {
+    padding-bottom: 40px;
+  }
+
+  .sponsor-row h3 {
+    color: #333333;
+    margin-bottom: 40px;
+    font-size: large;
+  }
+
+  .sponsor-row img {
+    width: auto;
+    max-height: 100%;
+    padding: 0 10px;
+  }
+
+  /* Sponsor tier-specific image sizes */
+  .delfin img {
+    max-width: 600px;
+  }
+
+  .capibara img {
+    max-width: 450px;
+  }
+
+  .guacamaya img {
+    max-width: 150px;
+  }
+
+  @media (max-width: 768px) {
+    .delfin img {
+      max-width: 300px;
+    }
+
+    .capibara img {
+      max-width: 225px;
+    }
+
+    .guacamaya img {
+      max-width: 100px;
+    }
+  }
+}

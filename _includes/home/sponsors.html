@@ -1,31 +1,30 @@
 {% assign t = site.t[page.lang].sponsor_section %}
-{% assign contact_url = site.contact_form_url[page.lang] %}
+{% assign sponsorship_campaign_is_open = site.sponsorship_campaign_is_open %}
 
 <section id="sponsors" class="container content-section text-center">
 
   <h2>
     <a href="#sponsors">
-      {{ t.sponsors_title }}
+      {{ t.title }}
     </a>
   </h2>
-  <p>{{ t.sponsors_description }}</p>
   <div class="sponsors-list">
     <div class="sponsor-row delfin">
-      <h2>Delfin</h2>
+      <h3>Delfin</h3>
       <a href="https://www.hotosm.org/" target="_blank">
         <img src="/assets/images/sponsors/HOT.png" alt="HOTOSM" width="480">
       </a>
     </div>
 
     <div class="sponsor-row capibara">
-      <h2>Capibara</h2>
+      <h3>Capibara</h3>
       <a href="https://about.meta.com" target="_blank">
         <img src="/assets/images/sponsors/meta.png" alt="Meta" width="480">
       </a>
     </div>
 
     <div class="sponsor-row guacamaya">
-      <h2 style="font-size: medium;margin-bottom: 20px;">Guacamaya</h2>
+      <h3>Guacamaya</h3>
       <a href="https://developmentseed.org/" target="_blank">
         <img src="/assets/images/sponsors/development_seed.png" alt="Development Seed" width="256">
       </a>
@@ -37,58 +36,12 @@
       </a>
     </div>
   </div>
+  <p>{{ t.thank_you_sponsors }}</p>
+  {% if sponsorship_campaign_is_open %}
+  <p>{{ t.campaign.invite }}</p>
+  <a target="_blank" href="{{ site.baseurl }}/assets/documents/sotm-latam-2024-sponsor-brochure-{{ page.lang }}.pdf"
+    class="btn btn-default">{{ t.campaign.brochure_button }}</a>
+  {% endif %}
 
-  <style>
-    .sponsors-list {
-      padding: 20px;
-      background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-    }
 
-    .sponsor-row {
-      margin-top: 40px;
-      font-size: medium;
-      margin-bottom: 20px;
-    }
-
-    .sponsor-row h2 {
-      color: #333333;
-      margin-bottom: 20px;
-    }
-
-    .sponsor-row img {
-      margin: 1px;
-      margin-right: 20px;
-      width: auto;
-      max-height: 100%;
-    }
-
-    /* Sponsor tier-specific image sizes */
-    .delfin img {
-      max-width: 350px;
-    }
-
-    .capibara img {
-      max-width: 200px;
-    }
-
-    .guacamaya img {
-      max-width: 150px;
-    }
-
-    @media (max-width: 768px) {
-      .delfin img {
-        max-width: 250px;
-      }
-
-      .capibara img {
-        max-width: 175px;
-      }
-
-      .guacamaya img {
-        max-width: 90px;
-      }
-    }
-  </style>
 </section>
