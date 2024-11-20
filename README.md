@@ -1,10 +1,9 @@
+
 # State of the Map LATAM 2024 Website
 
-Welcome to the repository containing the source code for the State of the Map LATAM 2024 website. We're currently in the development phase, and we welcome any feedback to improve the site. If you encounter errors or have suggestions for enhancements, please feel free to open an issue.
+Welcome to the repository for the State of the Map LATAM 2024 website! If you encounter any issues or have suggestions for improvements, we encourage you to [open an issue](https://github.com/OSMLatam/sotm-latam-2024/issues).
 
-**Current Status:** Work in Progress
-
-For a sneak peek of the website, visit the [preview site](https://sotm-latam-2024.surge.sh/).
+Visit the live website at [https://2024.osmlatam.org](https://2024.osmlatam.org)
 
 ## How to Contribute
 
@@ -20,9 +19,9 @@ We encourage developers to contribute to the project. If you're interested in ma
 
 Make your changes and submit a Pull Request (PR) following [this guide](https://help.github.com/articles/using-pull-requests/).
 
-## Explore Previous Conferences
+## Explore Past Conferences
 
-Take a look back at the previous State of the Map LATAM conferences:
+Relive the experience of previous State of the Map LATAM events:
 
 - [SotM LATAM 2019](http://2019.osmlatam.org)
 - [SotM LATAM 2018](http://2018.osmlatam.org)
