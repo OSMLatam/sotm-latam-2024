@@ -50,7 +50,7 @@ program:
   # stage: call-for-proposals-open
   # stage: call-for-proposals-closed
   stage: program-is-ready
-  url: "https://talks.osgeo.org/sotm2024-latam/schedule"
+  url: "https://talks.osgeo.org/sotm2024-latam/talk/"
 
 sponsorship_campaign_is_open: true
 
