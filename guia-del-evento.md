@@ -6,7 +6,7 @@ ref: guide
 
 # Guía del Evento
 
-Esta página incluye información sobre el **State of the Map LATAM 2024**, que se celebrará en el Instituto Federal do Pará (IFPA), Belém.
+Esta página incluye información sobre el **State of the Map LATAM 2024**, que se celebrará en el Palacete Pinho, Belém.
 
 ## Ubicación
 
