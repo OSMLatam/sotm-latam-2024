@@ -36,15 +36,6 @@ Aplicaciones de transporte privado que operan en la ciudad:
 - [Cabify](https://play.google.com/store/apps/details?id=com.cabify.rider)
 - [99 Taxi](https://play.google.com/store/apps/details?id=com.taxis99)
 
-## Alimentación
-
-No se ofrecerán comidas en el lugar del evento. Recomendamos el siguiente restaurante cerca del IFPA:
-
-**Restaurante Paladar Buffet**  
-Dirección: Avenida Almirante Barroso, Nº1428 - altos - Marco, Belém - PA  
-Horario: 11:00h hasta 15:00h  
-Contacto: +55 91 98865-7602
-
 ## Hospedaje
 
 Sugerencias de hospedaje con colaboración para el evento:
