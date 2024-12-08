@@ -42,7 +42,7 @@ social:
     font_awesome_icon: "fa-linkedin"
 
 registrations:
-  open: true
+  open: false
   url: https://doity.com.br/sotm-latam-2024
 
 program:
